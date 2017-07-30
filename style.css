@@ -1,0 +1,303 @@
+
+/*font css*/
+@font-face{
+	font-family: bebas;
+	src: url(bebas.ttf);
+}
+
+@font-face{
+	font-family: bebas;
+	src: url(bebas.eot);
+}
+
+/*font css*/
+
+.body{
+	margin: 0;
+}
+/*navbar section*/
+.logo{
+	font-family: 'Lobster', cursive;
+
+}
+.logo a{
+	color: #4CCFC1;
+}
+.navbar-brand{
+	font-size: 35px;
+}
+
+.header{
+	background-color: #4CCFC1;
+}
+
+.form-control{
+	border-radius: 0;
+	margin-top: 12px;
+	height: 25px;
+}
+
+.form-control-feedback {
+	top:-3px;
+	cursor: pointer;
+}
+.nmb{
+	/*margin-top: 5px;*/
+}
+
+.nmb label{
+	color: #afafaf;
+	font-family: bebas;
+	font-size: 20px;
+	/*margin-top: 5px;*/
+}
+
+/*end navbar section*/
+.header_list ul{
+	list-style: none;
+	margin: 0;
+	text-align: center;
+}
+
+.header_list li{
+	display: inline-block;
+	color: white;
+	text-transform: uppercase;	
+	font-family: bebas;
+	font-size: 15px;
+	padding-right: 49px;	
+	margin-bottom: 9px;
+	margin-top: 5px;
+	/*border-right: 1px solid white;*/
+	box-sizing: border-box;
+	
+}
+
+.background{
+	background-color: #3DC2B8;
+}
+
+.background_content h1{
+	font-family: bebas;
+	font-size: 50px;
+	color: white;
+	margin-top: 55px;
+}
+
+.background_pic{
+	margin-left: 70px;
+	margin-top: 55px;
+	margin-bottom: 55px;
+}
+
+.background_content p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 17px;
+	color: white;
+	margin-top: 20px;
+	
+}
+
+.background_content button{
+	font-family: bebas;
+    font-size: 17px;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    background-color: #3DC2B8;
+    padding: 7px;
+    width: 104px;
+    color: white;
+    margin-top: 10px;
+}
+
+.dot{
+	margin-top: 55px;
+	margin-left: 4px;
+}
+.top_product{
+	margin-top: 25px;
+	margin-bottom: 25px;
+	/*border: 2px solid green;*/
+}
+
+.border{
+	border-right: 1px solid #bdbaba;
+
+}
+
+.top_product h4{
+	text-transform: uppercase;
+	color: #afafaf;
+	font-weight: bold;
+}
+.top_product button{
+	font-family: bebas;
+	font-size: 14px;
+	color: white;
+	background: #3BC395;
+	border-radius: 5px;
+	border: none;
+	padding: 12px;
+	font-weight: lighter;
+	margin-left: 8px; 
+}
+
+
+.top_product img{
+	height: 120px;
+}
+
+.feature_product_bar{
+	background-color: #3DC2B8;
+}
+
+.feature_product_bar h1{
+	font-family: bebas;
+	text-transform: uppercase;
+	font-size: 20.19px;
+	color: white;
+	margin-left: 18px;
+	margin-bottom: 19px;
+}
+
+.product{
+	/*border: 1px solid #3BC395;*/
+	text-align: center;
+}
+.row1{
+	margin-top: 40px;
+}
+
+.row2{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.product h3{
+	text-transform: uppercase;
+	font-family: bebas;
+	color: #afafaf;
+	font-size: 20px;
+
+}
+.product img{
+	height: 120px;
+}
+
+.product span{
+	font-family: bebas;
+	font-size: 20px;
+	color: #afafaf;
+
+}
+
+.product button{
+	font-family: bebas;
+	font-size: 12px;
+	color: white;
+	background: #3BC395;
+	border-radius: 5px;
+	border: none;
+	padding: 8px;
+	/*font-weight: lighter;*/
+	margin-left: 8px;
+}
+.catagory{
+	background-color: #3DC2B8; 
+
+}
+
+.catagory_content h4{
+	text-transform: uppercase;
+	color: white;
+	font-family: bebas;
+	margin-left: 38px;
+	margin-top: 39px;
+	margin-bottom: 20px;
+}
+
+.catagory_content ul{
+	list-style: none;
+	margin-bottom: 25px;
+}
+
+.catagory_content li{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	color: white;
+	margin-bottom: 6px;
+}
+
+.footer{
+	background-color: #2DA99B;
+}
+
+.footer_content{
+	text-align: center;
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	margin-top: 5px;
+
+}
+
+
+.no_gutter{
+	margin-left: 0;
+	margin-right: 0;
+}
+
+
+
+
+/*media query*/
+@media (max-width: 767px) { 
+	
+	.nmb img{
+		margin-bottom: 10px;
+	}
+	
+	.background_pic{
+	margin-left: -10px;	
+	}
+	.header_list li{
+	display: block;
+	}
+
+	.background_content button{
+
+	}
+	.dot{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 35%;
+	
+	}
+
+	.product h3, span {
+		font-size: 18px;
+	}
+	.product button{
+		font-size: 10px;
+	}
+
+	.footer_content{
+		font-size: 12px;
+	}
+	.top_product{
+		text-align: center;
+	}
+	.border{
+		border-right: none;
+	}
+	.top_product button{
+		font-size: 12px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) { 
+
+	
+
+ }
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { ... }
+@media (min-width: @screen-lg-min) { ... }
